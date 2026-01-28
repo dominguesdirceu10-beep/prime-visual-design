@@ -208,6 +208,32 @@ img{
   max-height: 22px !important;
   display: block;
 }
+  
+#wa-canto{
+  position: fixed !important;
+  top: 18px !important;
+  right: 18px !important;
+
+  width: 44px !important;
+  height: 44px !important;
+
+  background: #25D366 !important;
+  border-radius: 50% !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  z-index: 999999 !important;
+  box-shadow: 0 8px 20px rgba(0,0,0,.35) !important;
+}
+
+#wa-canto img{
+  width: 22px !important;
+  height: 22px !important;
+  display: block !important;
+}
+
 
 
 

@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle at top, #1a1a1a, #000000 70%);
+  color: #ffffff;
+  text-align: center;
+}
+
+.topo{
+  padding: 60px 20px;
+}
+
+.topo h1 {
+  font-size: 48px;
+  letter-spacing: 1px;
+}
+
+
+.topo p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 16px 36px;
+  background: linear-gradient(135deg, #f5c542, #d4a017);
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(245,197,66,0.4);
+}
+
+
+.bloco{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+
+.bloco h2 {
+  color: #f5c542;
+  margin-bottom: 20px;
+}
+
+.bloco ul, .bloco ol {
+  list-style: none;
+  padding: 0;
+}
+
+.bloco li {
+  margin: 10px 0;
+}
+
+.destaque {
+  background: #1a1a1a;
+}
+
+footer {
+  padding: 20px;
+  background: #000;
+  font-size: 14px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #f5c54233;
+  padding: 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(245,197,66,0.2);
+.whatsapp-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: #fff;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  z-index: 999;
+.subtexto {
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+.precos {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.precos div {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #333;
+  font-weight: bold;
+}
+
+.precos span {
+  color: #f5c542;
+}
+.subtexto {
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+.precos {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.precos div {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #333;
+  font-weight: bold;
+}
+
+.precos span {
+  color: #f5c542;
+}
+
+.bloco {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.logo{
+  width: 180px;        /* tamanho ideal */
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto 18px;
+  padding: 14px;
+  background: #000;
+  border-radius: 18px;
+  box-shadow: 0 20px 45px rgba(0,0,0,.55);
+}
+
+.topo {
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.logo{
+  width: 160px !important;
+  height: auto !important;
+  display: block;
+  margin: 0 auto 18px;
+}
+
+.logo-box{
+  width: 100%;
+  max-width: 220px;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.whatsapp-canto{
+  position: fixed;
+  top: 18px;
+  right: 18px;
+
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+
+  background: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 99999;
+
+  box-shadow: 0 10px 26px rgba(0,0,0,.35);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.whatsapp-canto:hover{
+  transform: scale(1.08);
+  box-shadow: 0 14px 36px rgba(37,211,102,.35);
+}
+
+.whatsapp-canto img{
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+
+.wa-premium{
+  position: relative;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(245,197,66,.30);
+  background: rgba(0,0,0,.35);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 14px 34px rgba(0,0,0,.35);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.wa-premium:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 18px 44px rgba(245,197,66,.12), 0 14px 34px rgba(0,0,0,.35);
+}
+
+.wa-ring{
+  position:absolute;
+  inset:-2px;
+  border-radius:999px;
+  background: linear-gradient(90deg, rgba(245,197,66,.18), rgba(255,255,255,.06), rgba(245,197,66,.18));
+  filter: blur(0px);
+  z-index:0;
+}
+
+.wa-icon{
+  width: 28px;
+  height: 28px;
+  z-index:1;
+  fill: #f5c542; /* dourado */
+  filter: drop-shadow(0 6px 14px rgba(245,197,66,.20));
+}
+
+.wa-text{
+  z-index:1;
+  font-size: 13px;
+  color: rgba(255,255,255,.85);
+  letter-spacing:.2px;
+}
+
+.wa-text strong{
+  color:#f5c542;
+}

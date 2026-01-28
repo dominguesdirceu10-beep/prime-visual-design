@@ -88,22 +88,7 @@ footer {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(245,197,66,0.2);
-.whatsapp-fixo {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #25D366;
-  color: #fff;
-  font-size: 28px;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  z-index: 999;
+
 .subtexto {
   color: #ccc;
   margin-bottom: 25px;
@@ -213,5 +198,6 @@ img{
   max-height: 22px !important;
   display: block;
 }
+
 
 
